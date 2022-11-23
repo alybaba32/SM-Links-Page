@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    color: yellow;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.container {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    border: 2px solid rgb(101, 97, 97);
+    border-radius: 5px;
+    width: 80%;
+    height: 12%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 668px){
+    .container {
+        width: 370px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 668px){
+    .container {
+        width: 70%;
+    }
+}
